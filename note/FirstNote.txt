@@ -12,9 +12,9 @@ mvn -v 查看maven版本
   1）archetype:generate 按照提示进行选择
       archetype:generate                    maven创建目录
       groupId: com.songyl.maven03           组织名,公司名+项目名
-      artifactId: maven03-services          项目名-模块名
+      artifactId: maven03-service          项目名-模块名
       version: 1.0.0-SNAPSHOT               版本号
-      package: com.songyl.maven03.services  包名
+      package: com.songyl.maven03.service  包名
       Y: : y
   2）一次性创建目录骨架
     mvn archetype:generate
