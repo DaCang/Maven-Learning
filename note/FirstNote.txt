@@ -8,13 +8,17 @@ mvn -v 查看maven版本
       clean 删除target
       install 安装jar包到本地仓库中
       
-2.maven创建目录：
- mvn  archetype:generate       maven创建目录
-      groupId: com.songyl.maven03   组织名,公司名+项目名
-      artifactId: maven03-services  项目名
-      version: 1.0.0-SNAPSHOT  版本号
+2.创建目录骨架的两种方式
+  1）archetype:generate 按照提示进行选择
+      archetype:generate                    maven创建目录
+      groupId: com.songyl.maven03           组织名,公司名+项目名
+      artifactId: maven03-services          项目名-模块名
+      version: 1.0.0-SNAPSHOT               版本号
       package: com.songyl.maven03.services  包名
       Y: : y
-
-3.一次性创建目录骨架
-    mvn archetype:generate -DgroupId=com.songyl.maven04 -DartifactId=maven04-demo -Dversion=1.0.0SNAPSHOT -Dpackage=com.songyl.maven04.demo
+  2）一次性创建目录骨架
+    mvn archetype:generate
+     -DgroupId=com.songyl.maven04       组织名,公司名+项目名
+     -DartifactId=maven04-demo          项目名-模块名
+     -Dversion=1.0.0SNAPSHOT            版本号
+     -Dpackage=com.songyl.maven04.demo  包名
