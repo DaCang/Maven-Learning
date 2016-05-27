@@ -1,11 +1,11 @@
-mvn -v ²é¿´maven°æ±¾
-      compile  ±àÒë
-      test  ²âÊÔ
-      package  ´ò°üjar
+mvn -v æŸ¥çœ‹mavenç‰ˆæœ¬
+      compile  ç¼–è¯‘
+      test     æµ‹è¯•
+      package  æ‰“åŒ…jar
 
-      clean É¾³ýtarget
-      install °²×°jar°üµ½±¾µØ²Ö¿âÖÐ
-      archetype:generate maven´´½¨Ä¿Â¼
+      clean åˆ é™¤target
+      install å®‰è£…jaråŒ…åˆ°æœ¬åœ°ä»“åº“ä¸­
+      archetype:generate mavenåˆ›å»ºç›®å½•
       groupId: com.songyl.maven03
       artifactId: maven03-services
       version: 1.0.0-SNAPSHOT
