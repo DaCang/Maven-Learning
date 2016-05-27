@@ -22,3 +22,5 @@ mvn -v 查看maven版本
      -DartifactId=maven04-demo          项目名-模块名
      -Dversion=1.0.0SNAPSHOT            版本号
      -Dpackage=com.songyl.maven04.demo  包名
+3.完整的项目构建过程
+  清理、编译、测试、打包、集成测试、验证、部署
