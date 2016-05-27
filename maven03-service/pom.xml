@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.songyl.maven03</groupId>
-  <artifactId>maven03-services</artifactId>
+  <artifactId>maven03-service</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>maven03-services</name>
+  <name>maven03-service</name>
   <url>http://maven.apache.org</url>
 
   <properties>
