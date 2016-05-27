@@ -1,4 +1,4 @@
-package com.songyl.maven03.services;
+package com.songyl.maven03.service;
 
 /**
  * Hello world!
