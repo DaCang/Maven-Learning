@@ -1,0 +1,13 @@
+mvn -v 查看maven版本
+      compile  编译
+      test  测试
+      package  打包jar
+
+      clean 删除target
+      install 安装jar包到本地仓库中
+      archetype:generate maven创建目录
+      groupId: com.songyl.maven03
+      artifactId: maven03-services
+      version: 1.0.0-SNAPSHOT
+      package: com.songyl.maven03.services
+      Y: : y
