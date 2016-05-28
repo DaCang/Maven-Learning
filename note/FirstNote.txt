@@ -1,12 +1,12 @@
 
 1.maven基本命令
- mvn -v 查看maven版本
-      compile  编译
-      test  测试
-      package  打包jar
+  mvn -v 查看maven版本
+       compile  编译
+       test  测试
+       package  打包jar
 
-      clean 删除target
-      install 安装jar包到本地仓库中
+       clean 删除target
+       install 安装jar包到本地仓库中
       
 2.创建目录骨架的两种方式
   1）archetype:generate 按照提示进行选择
