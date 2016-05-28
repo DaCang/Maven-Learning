@@ -1,6 +1,6 @@
 
 1.maven基本命令
-mvn -v 查看maven版本
+ mvn -v 查看maven版本
       compile  编译
       test  测试
       package  打包jar
@@ -24,3 +24,8 @@ mvn -v 查看maven版本
      -Dpackage=com.songyl.maven04.demo  包名
 3.完整的项目构建过程
   清理、编译、测试、打包、集成测试、验证、部署
+4.MAVEN生命周期：
+    clean	清理项目
+    default	构建项目  compile  test  package install
+    site	生成项目站点
+
