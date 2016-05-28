@@ -1,0 +1,88 @@
+<!--project  POM根元素，包含了POM的约束信息 -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- modelVersion  指定了当前pom的版本 -->
+	<modelVersion>4.0.0</modelVersion>
+   
+     <!--项目坐标信息：groupId、 artifactId 、version、packaging-->
+     <!-- 1.groupId   主项目标识 -->
+	<groupId>com.songyl.hi</groupId>
+	<!-- 2.artifactId  模块标识 -->
+	<artifactId>hi</artifactId>
+	<!-- 3.version  当前项目的版本号
+           第一个0，大版本号
+           第二个0，分支版本号
+           第三个0，小版本号
+           0.0.1-SNAPSHOT 快照版本
+                -ALPHA    内部测试
+                -BATE     公测
+                -RELEASE  稳定
+                -GA       正式发布-->
+	<version>0.0.1-SNAPSHOT</version>
+	<!-- 4.packaging  maven项目的打包方式
+          默认是jar，还有war,zip,pom -->
+	<packaging>jar</packaging>
+    <!-- 5.name 项目描述名 -->
+	<name>hi</name>
+	<!-- 6.url  项目的地址 -->
+	<url>http://maven.apache.org</url>
+	<!-- 7.description  项目的描述 -->
+	<description>my first maven</description>
+	<!-- 8.developers 开发人员信息 -->
+	<developers>dacang</developers>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+    <!-- dependencies  依赖列表 -->
+	<dependencies>
+		<dependency>
+			<!-- 依赖坐标 -->
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<!--  1.scope  依赖的范围 -->
+			<scope>test</scope>
+			<!-- 2.exclusions  排除依赖传递列表 -->
+			<exclusions>
+				<exclusion>
+
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+	<!--dependencyManagement  依赖的管理 -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<!-- build  对构建提供相应的支持 -->
+	<build>
+		<!-- plugins  插件列表 -->
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.4</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	<!-- parent 子模块对父模块POM的继承-->
+	<parent></parent>
+	<!-- 聚合多个模块进行编译 -->
+	<moudules>
+		<moudule></moudule>	
+	</moudules>
+</project>
